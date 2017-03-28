@@ -27,8 +27,8 @@ package com.swisscom.api.sdk.billingprofiles.api;
 
 import com.swisscom.api.sdk.billingprofiles.ApiException;
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfilesCollection;
-import com.swisscom.api.sdk.billingprofiles.model.Error;
 import java.math.BigDecimal;
+import com.swisscom.api.sdk.billingprofiles.model.Error;
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfileDetails;
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfileEligibility;
 import org.junit.Test;

@@ -173,8 +173,8 @@ public class ApiClient {
 
         // Setup authentications (key: authentication name, value: authentication).
         authentications = new HashMap<String, Authentication>();
-        authentications.put("oauth_2_0_authorization_code", new OAuth());
         authentications.put("oauth_2_0_client_credentials", new OAuth());
+        authentications.put("oauth_2_0_authorization_code", new OAuth());
         // Prevent the authentications from being modified.
         authentications = Collections.unmodifiableMap(authentications);
     }
