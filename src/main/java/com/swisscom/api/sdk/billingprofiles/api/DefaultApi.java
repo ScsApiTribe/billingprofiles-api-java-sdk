@@ -39,8 +39,8 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfilesCollection;
-import java.math.BigDecimal;
 import com.swisscom.api.sdk.billingprofiles.model.Error;
+import java.math.BigDecimal;
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfileDetails;
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfileEligibility;
 
@@ -250,7 +250,7 @@ public class DefaultApi {
             });
         }
 
-        String[] localVarAuthNames = new String[] { "oauth_2_0_client_credentials", "oauth_2_0_authorization_code" };
+        String[] localVarAuthNames = new String[] { "oauth_2_0_authorization_code", "oauth_2_0_client_credentials" };
         return apiClient.buildCall(localVarPath, "GET", localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
 
@@ -374,7 +374,7 @@ public class DefaultApi {
             });
         }
 
-        String[] localVarAuthNames = new String[] { "oauth_2_0_client_credentials", "oauth_2_0_authorization_code" };
+        String[] localVarAuthNames = new String[] { "oauth_2_0_authorization_code", "oauth_2_0_client_credentials" };
         return apiClient.buildCall(localVarPath, "GET", localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
 

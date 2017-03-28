@@ -116,13 +116,6 @@ Class | Method | HTTP request | Description
 ## Documentation for Authorization
 
 Authentication schemes defined for the API:
-### oauth_2_0_client_credentials
-
-- **Type**: OAuth
-- **Flow**: application
-- **Authorizatoin URL**: 
-- **Scopes**: N/A
-
 ### oauth_2_0_authorization_code
 
 - **Type**: OAuth
@@ -134,6 +127,13 @@ Authentication schemes defined for the API:
   - cbt: Allows placing charges on a Swisscom bill.
   - read-billingprofile-details: Allows reading billing profiles details.
   - read-billingprofile-eligibility: Allows checking whether a billing profile is eligible for payment.
+
+### oauth_2_0_client_credentials
+
+- **Type**: OAuth
+- **Flow**: application
+- **Authorizatoin URL**: 
+- **Scopes**: N/A
 
 
 ## Recommendation
