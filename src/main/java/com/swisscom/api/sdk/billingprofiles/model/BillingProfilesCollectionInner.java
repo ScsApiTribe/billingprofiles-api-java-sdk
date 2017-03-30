@@ -37,7 +37,7 @@ import java.util.List;
 /**
  * BillingProfilesCollectionInner
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-29T13:55:59.977+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T08:55:01.395+02:00")
 public class BillingProfilesCollectionInner   {
   @SerializedName("id")
   private String id = null;

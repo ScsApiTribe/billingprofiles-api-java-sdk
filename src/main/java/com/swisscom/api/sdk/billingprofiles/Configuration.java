@@ -25,7 +25,7 @@
 
 package com.swisscom.api.sdk.billingprofiles;
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-29T13:55:59.977+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T08:55:01.395+02:00")
 public class Configuration {
     private static ApiClient defaultApiClient = new ApiClient();
 
