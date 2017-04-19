@@ -2,7 +2,7 @@ lazy val root = (project in file(".")).
   settings(
     organization := "com.swisscom.api.sdk.billingprofiles",
     name := "billingprofilesapi",
-    version := "1.0.19",
+    version := "1.0.20",
     scalaVersion := "2.11.4",
     scalacOptions ++= Seq("-feature"),
     javacOptions in compile ++= Seq("-Xlint:deprecation"),

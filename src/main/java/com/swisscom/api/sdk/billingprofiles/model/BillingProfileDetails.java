@@ -28,6 +28,7 @@ package com.swisscom.api.sdk.billingprofiles.model;
 import java.util.Objects;
 import com.google.gson.annotations.SerializedName;
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfilesCollectionInnerLinks;
+import com.swisscom.api.sdk.billingprofiles.model.CustomerAddress;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.util.ArrayList;
@@ -37,7 +38,7 @@ import java.util.List;
 /**
  * BillingProfileDetails
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T11:50:47.829+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T14:23:28.935+02:00")
 public class BillingProfileDetails   {
   @SerializedName("id")
   private String id = null;
@@ -80,7 +81,7 @@ public class BillingProfileDetails   {
   private List<BillingProfilesCollectionInnerLinks> links = new ArrayList<BillingProfilesCollectionInnerLinks>();
 
   @SerializedName("addresses")
-  private List<String> addresses = new ArrayList<String>();
+  private CustomerAddress addresses = null;
 
   public BillingProfileDetails id(String id) {
     this.id = id;
@@ -159,13 +160,8 @@ public class BillingProfileDetails   {
     this.links = links;
   }
 
-  public BillingProfileDetails addresses(List<String> addresses) {
+  public BillingProfileDetails addresses(CustomerAddress addresses) {
     this.addresses = addresses;
-    return this;
-  }
-
-  public BillingProfileDetails addAddressesItem(String addressesItem) {
-    this.addresses.add(addressesItem);
     return this;
   }
 
@@ -174,11 +170,11 @@ public class BillingProfileDetails   {
    * @return addresses
   **/
   @ApiModelProperty(example = "null", required = true, value = "")
-  public List<String> getAddresses() {
+  public CustomerAddress getAddresses() {
     return addresses;
   }
 
-  public void setAddresses(List<String> addresses) {
+  public void setAddresses(CustomerAddress addresses) {
     this.addresses = addresses;
   }
 

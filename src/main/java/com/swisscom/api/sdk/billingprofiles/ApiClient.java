@@ -169,7 +169,7 @@ public class ApiClient {
         this.lenientDatetimeFormat = true;
 
         // Set default User-Agent.
-        setUserAgent("Swagger-Codegen/1.0.19/java");
+        setUserAgent("Swagger-Codegen/1.0.20/java");
 
         // Setup authentications (key: authentication name, value: authentication).
         authentications = new HashMap<String, Authentication>();

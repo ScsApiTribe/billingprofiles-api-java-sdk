@@ -1,5 +1,5 @@
 
-# BillingProfilesCollectionInnerAddresses
+# CustomerAddressInner
 
 ## Properties
 Name | Type | Description | Notes

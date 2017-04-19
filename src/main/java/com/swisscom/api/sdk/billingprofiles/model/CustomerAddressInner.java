@@ -32,10 +32,10 @@ import io.swagger.annotations.ApiModelProperty;
 
 
 /**
- * BillingProfilesCollectionInnerAddresses
+ * CustomerAddressInner
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T11:50:47.829+02:00")
-public class BillingProfilesCollectionInnerAddresses   {
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T14:23:28.935+02:00")
+public class CustomerAddressInner   {
   /**
    * The address type of the billing profile. It will either be a street address or a PO Box. A street address consists of either a houseName or a street and houseNumber. A PO Box address always defines a postBox. All addresses may contain a zip code and city.
    */
@@ -85,7 +85,7 @@ public class BillingProfilesCollectionInnerAddresses   {
   @SerializedName("city")
   private String city = null;
 
-  public BillingProfilesCollectionInnerAddresses type(TypeEnum type) {
+  public CustomerAddressInner type(TypeEnum type) {
     this.type = type;
     return this;
   }
@@ -103,7 +103,7 @@ public class BillingProfilesCollectionInnerAddresses   {
     this.type = type;
   }
 
-  public BillingProfilesCollectionInnerAddresses houseName(String houseName) {
+  public CustomerAddressInner houseName(String houseName) {
     this.houseName = houseName;
     return this;
   }
@@ -121,7 +121,7 @@ public class BillingProfilesCollectionInnerAddresses   {
     this.houseName = houseName;
   }
 
-  public BillingProfilesCollectionInnerAddresses street(String street) {
+  public CustomerAddressInner street(String street) {
     this.street = street;
     return this;
   }
@@ -139,7 +139,7 @@ public class BillingProfilesCollectionInnerAddresses   {
     this.street = street;
   }
 
-  public BillingProfilesCollectionInnerAddresses houseNumber(String houseNumber) {
+  public CustomerAddressInner houseNumber(String houseNumber) {
     this.houseNumber = houseNumber;
     return this;
   }
@@ -157,7 +157,7 @@ public class BillingProfilesCollectionInnerAddresses   {
     this.houseNumber = houseNumber;
   }
 
-  public BillingProfilesCollectionInnerAddresses postBox(String postBox) {
+  public CustomerAddressInner postBox(String postBox) {
     this.postBox = postBox;
     return this;
   }
@@ -175,7 +175,7 @@ public class BillingProfilesCollectionInnerAddresses   {
     this.postBox = postBox;
   }
 
-  public BillingProfilesCollectionInnerAddresses zip(String zip) {
+  public CustomerAddressInner zip(String zip) {
     this.zip = zip;
     return this;
   }
@@ -193,7 +193,7 @@ public class BillingProfilesCollectionInnerAddresses   {
     this.zip = zip;
   }
 
-  public BillingProfilesCollectionInnerAddresses city(String city) {
+  public CustomerAddressInner city(String city) {
     this.city = city;
     return this;
   }
@@ -220,14 +220,14 @@ public class BillingProfilesCollectionInnerAddresses   {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    BillingProfilesCollectionInnerAddresses billingProfilesCollectionInnerAddresses = (BillingProfilesCollectionInnerAddresses) o;
-    return Objects.equals(this.type, billingProfilesCollectionInnerAddresses.type) &&
-        Objects.equals(this.houseName, billingProfilesCollectionInnerAddresses.houseName) &&
-        Objects.equals(this.street, billingProfilesCollectionInnerAddresses.street) &&
-        Objects.equals(this.houseNumber, billingProfilesCollectionInnerAddresses.houseNumber) &&
-        Objects.equals(this.postBox, billingProfilesCollectionInnerAddresses.postBox) &&
-        Objects.equals(this.zip, billingProfilesCollectionInnerAddresses.zip) &&
-        Objects.equals(this.city, billingProfilesCollectionInnerAddresses.city);
+    CustomerAddressInner customerAddressInner = (CustomerAddressInner) o;
+    return Objects.equals(this.type, customerAddressInner.type) &&
+        Objects.equals(this.houseName, customerAddressInner.houseName) &&
+        Objects.equals(this.street, customerAddressInner.street) &&
+        Objects.equals(this.houseNumber, customerAddressInner.houseNumber) &&
+        Objects.equals(this.postBox, customerAddressInner.postBox) &&
+        Objects.equals(this.zip, customerAddressInner.zip) &&
+        Objects.equals(this.city, customerAddressInner.city);
   }
 
   @Override
@@ -238,7 +238,7 @@ public class BillingProfilesCollectionInnerAddresses   {
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class BillingProfilesCollectionInnerAddresses {\n");
+    sb.append("class CustomerAddressInner {\n");
     
     sb.append("    type: ").append(toIndentedString(type)).append("\n");
     sb.append("    houseName: ").append(toIndentedString(houseName)).append("\n");
