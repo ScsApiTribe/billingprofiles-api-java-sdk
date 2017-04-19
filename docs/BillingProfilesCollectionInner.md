@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **type** | **String** | The type of the billing profile (e.g.: mobile, ip, wireline). | 
 **language** | [**LanguageEnum**](#LanguageEnum) | The preferred language for the billing profile customer. |  [optional]
 **links** | [**List&lt;BillingProfilesCollectionInnerLinks&gt;**](BillingProfilesCollectionInnerLinks.md) |  | 
-**addresses** | **List&lt;String&gt;** |  | 
+**addresses** | [**List&lt;BillingProfilesCollectionInnerAddresses&gt;**](BillingProfilesCollectionInnerAddresses.md) |  | 
 
 
 <a name="LanguageEnum"></a>

@@ -27,6 +27,7 @@ package com.swisscom.api.sdk.billingprofiles.model;
 
 import java.util.Objects;
 import com.google.gson.annotations.SerializedName;
+import com.swisscom.api.sdk.billingprofiles.model.BillingProfilesCollectionInnerAddresses;
 import com.swisscom.api.sdk.billingprofiles.model.BillingProfilesCollectionInnerLinks;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -37,7 +38,7 @@ import java.util.List;
 /**
  * BillingProfilesCollectionInner
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T17:35:08.667+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T11:50:47.829+02:00")
 public class BillingProfilesCollectionInner   {
   @SerializedName("id")
   private String id = null;
@@ -80,7 +81,7 @@ public class BillingProfilesCollectionInner   {
   private List<BillingProfilesCollectionInnerLinks> links = new ArrayList<BillingProfilesCollectionInnerLinks>();
 
   @SerializedName("addresses")
-  private List<String> addresses = new ArrayList<String>();
+  private List<BillingProfilesCollectionInnerAddresses> addresses = new ArrayList<BillingProfilesCollectionInnerAddresses>();
 
   public BillingProfilesCollectionInner id(String id) {
     this.id = id;
@@ -159,12 +160,12 @@ public class BillingProfilesCollectionInner   {
     this.links = links;
   }
 
-  public BillingProfilesCollectionInner addresses(List<String> addresses) {
+  public BillingProfilesCollectionInner addresses(List<BillingProfilesCollectionInnerAddresses> addresses) {
     this.addresses = addresses;
     return this;
   }
 
-  public BillingProfilesCollectionInner addAddressesItem(String addressesItem) {
+  public BillingProfilesCollectionInner addAddressesItem(BillingProfilesCollectionInnerAddresses addressesItem) {
     this.addresses.add(addressesItem);
     return this;
   }
@@ -174,11 +175,11 @@ public class BillingProfilesCollectionInner   {
    * @return addresses
   **/
   @ApiModelProperty(example = "null", required = true, value = "")
-  public List<String> getAddresses() {
+  public List<BillingProfilesCollectionInnerAddresses> getAddresses() {
     return addresses;
   }
 
-  public void setAddresses(List<String> addresses) {
+  public void setAddresses(List<BillingProfilesCollectionInnerAddresses> addresses) {
     this.addresses = addresses;
   }
 

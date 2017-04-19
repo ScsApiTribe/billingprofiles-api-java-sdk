@@ -28,7 +28,7 @@ Add this dependency to your project's POM:
 <dependency>
     <groupId>com.swisscom.api.sdk.billingprofiles</groupId>
     <artifactId>billingprofilesapi</artifactId>
-    <version>1.0.14</version>
+    <version>1.0.19</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -38,7 +38,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.swisscom.api.sdk.billingprofiles:billingprofilesapi:1.0.14"
+compile "com.swisscom.api.sdk.billingprofiles:billingprofilesapi:1.0.19"
 ```
 
 ### Others
@@ -49,7 +49,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/billingprofilesapi-1.0.14.jar
+* target/billingprofilesapi-1.0.19.jar
 * target/lib/*.jar
 
 ## Getting Started
@@ -109,6 +109,7 @@ Class | Method | HTTP request | Description
  - [BillingProfileEligibility](docs/BillingProfileEligibility.md)
  - [BillingProfilesCollection](docs/BillingProfilesCollection.md)
  - [BillingProfilesCollectionInner](docs/BillingProfilesCollectionInner.md)
+ - [BillingProfilesCollectionInnerAddresses](docs/BillingProfilesCollectionInnerAddresses.md)
  - [BillingProfilesCollectionInnerLinks](docs/BillingProfilesCollectionInnerLinks.md)
  - [Error](docs/Error.md)
 

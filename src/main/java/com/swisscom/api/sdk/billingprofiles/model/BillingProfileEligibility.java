@@ -34,7 +34,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * BillingProfileEligibility
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-03-30T17:35:08.667+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T11:50:47.829+02:00")
 public class BillingProfileEligibility   {
   @SerializedName("eligible")
   private Boolean eligible = null;
