@@ -28,7 +28,7 @@ Add this dependency to your project's POM:
 <dependency>
     <groupId>com.swisscom.api.sdk.billingprofiles</groupId>
     <artifactId>billingprofilesapi</artifactId>
-    <version>1.0.20</version>
+    <version>1.0.21</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -38,7 +38,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.swisscom.api.sdk.billingprofiles:billingprofilesapi:1.0.20"
+compile "com.swisscom.api.sdk.billingprofiles:billingprofilesapi:1.0.21"
 ```
 
 ### Others
@@ -49,7 +49,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/billingprofilesapi-1.0.20.jar
+* target/billingprofilesapi-1.0.21.jar
 * target/lib/*.jar
 
 ## Getting Started

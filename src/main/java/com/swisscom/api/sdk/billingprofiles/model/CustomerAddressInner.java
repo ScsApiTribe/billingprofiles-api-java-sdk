@@ -34,7 +34,7 @@ import io.swagger.annotations.ApiModelProperty;
 /**
  * CustomerAddressInner
  */
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-19T14:23:28.935+02:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2017-04-25T11:50:22.766+02:00")
 public class CustomerAddressInner   {
   /**
    * The address type of the billing profile. It will either be a street address or a PO Box. A street address consists of either a houseName or a street and houseNumber. A PO Box address always defines a postBox. All addresses may contain a zip code and city.
